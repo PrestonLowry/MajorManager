@@ -1,0 +1,14 @@
+<resources>
+<string name="app_name">MajorManager</string>
+<string name="title_activity_chemistry">Chemistry</string>
+
+<string-array name="MajorStuff">
+    <item>Chemistry</item>
+    <item>Computer Science</item>
+    <item>Forestry</item>
+    <item>Biology</item>
+    <item>International Affairs</item>
+    <item>Underwater Basketweaving</item>
+</string-array>
+
+</resources>

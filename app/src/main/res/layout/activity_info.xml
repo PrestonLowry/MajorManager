@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChemistryInfo">
+
+    <TextView
+        android:id="@+id/blankJobs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="9dp"
+        android:text="BOTTOM TEXT"
+        app:layout_constraintBottom_toTopOf="@+id/Picture"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="RETURN"
+        android:onClick="onClickReturn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description" />
+
+    <ImageView
+        android:id="@+id/Picture"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/blankJobs"
+        tools:src="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="46dp"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="100"
+        android:scrollHorizontally="false"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget posuere eros. Suspendisse potenti. Mauris sodales odio risus, in consectetur mi mollis eget. Morbi viverra elit gravida rutrum consequat. Mauris eget sodales velit, at commodo nisl. Quisque facilisis molestie eros. Proin rutrum ut ante a ornare. Nulla non metus fermentum metus vulputate bibendum. Suspendisse potenti. Aliquam ut nisl metus. Curabitur viverra malesuada tellus, vitae pulvinar libero vehicula eget. Nulla vitae pretium justo.
+Sed ullamcorper cursus consequat. Aenean efficitur a risus hendrerit aliquet. Vestibulum laoreet justo eget lectus pellentesque, at aliquam mi condimentum. Phasellus mollis, diam nec suscipit dignissim, est mi aliquet sapien, sed molestie enim dolor vel lorem. Cras accumsan, eros sed rhoncus rutrum, nunc diam sodales lectus, vitae dignissim sapien metus nec leo. Vivamus finibus, leo id venenatis gravida, neque felis consectetur tortor, vel pharetra nibh ligula venenatis lacus. Maecenas volutpat nibh eu odio consectetur sollicitudin. Donec condimentum libero quis urna ultrices, nec cursus lorem interdum. Aenean blandit aliquam quam. Maecenas leo dui, placerat imperdiet magna vitae, sodales lobortis arcu. Donec gravida risus eros, molestie faucibus ligula iaculis sit amet."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Picture" />
+
+</android.support.constraint.ConstraintLayout>
